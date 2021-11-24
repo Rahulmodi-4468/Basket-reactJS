@@ -1,8 +1,8 @@
 import React from "react";
 import "./navbar.css";
-import Registration from "./Registration";
 
 function Navbar() {
+  const ind = "hello.html";
   return (
     <header>
       <nav className="main-nav">
@@ -10,28 +10,24 @@ function Navbar() {
         <label for="check" className="menu-btn">
           <i className="fas fa-bars"></i>
         </label>
-        <a href="index.html" className="nav-brand">
-          Basket
-        </a>
+        <a href={ind} className="nav-brand">Basket</a>
         <ul className="navlinks">
           <li>
-            <a href="#" className="active">
-              Home
-            </a>
+            <a href={ind} className="active">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href={ind}>About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href={ind}>Contact</a>
           </li>
           <li>
-            <a href="">
+            <a href={ind}>
               <i class="fas fa-user-plus"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href={ind}>
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             </a>
           </li>

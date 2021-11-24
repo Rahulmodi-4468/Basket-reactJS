@@ -41,7 +41,7 @@ function Registration() {
     <div className="Container">
       <div className="registration">
         <h2 className="heading-h2">Sign Up</h2>
-       
+
         <input
           type="text"
           name="fullname"
@@ -77,10 +77,8 @@ function Registration() {
         </button>
         <p>{reg.fullname}</p>
         <span className="log-link">Log In</span>
-       
       </div>
       <div className="login">
-     
         <h2 className="heading-h2">Log In</h2>
         <input
           type="text"
@@ -98,7 +96,6 @@ function Registration() {
         <button onClick={onSubmit} className="log-btn">
           Log In
         </button>
-        
       </div>
     </div>
   );
